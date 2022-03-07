@@ -1,0 +1,40 @@
+
+fieldset {
+
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(192, 56%, 78%);
+    height:max-content;
+    margin: auto;
+    width: 30%;
+}
+   
+legend {
+
+    color: blue;
+    background-color: aliceblue;
+    border: 2px solid rgb(115, 216, 128);
+}
+
+
+form dt {
+
+    color: hsl(105, 50%, 3%);
+    background-color: rgba(24, 23, 22, 0.2);
+}
+
+[type|=reset]  {
+    color: rgb(219, 19, 19);
+    background-color: rgba(228, 167, 179, 0.493);
+  }
+
+[type|=submit]  {
+    color: rgb(46, 34, 212);
+    background-color: rgba(86, 214, 74, 0.493);
+  }
+
+.echo {
+
+    color: rgb(252, 6, 6);
+    margin-left: 20%;
+  }
